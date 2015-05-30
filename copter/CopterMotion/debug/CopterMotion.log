@@ -1,0 +1,27 @@
+﻿Build started 5/21/2015 9:44:55 AM.
+     1>Project "C:\Users\coolti\Documents\Visual Studio 2013\Projects\UAVShadowing\CopterTracker\CopterMotion\CopterMotion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\mavlink-1.0.11\build\C\include\mavlink\v1.0\common\\" /IC:\qt\qt5.4.0\5.4\msvc2013\include /IC:\qt\qt5.4.0\5.4\msvc2013\include\QtWidgets /IC:\qt\qt5.4.0\5.4\msvc2013\include\QtGui /IC:\qt\qt5.4.0\5.4\msvc2013\include\QtANGLE /IC:\qt\qt5.4.0\5.4\msvc2013\include\QtSerialPort /IC:\qt\qt5.4.0\5.4\msvc2013\include\QtCore /Idebug /I"C:\qt\qt5.4.0\5.4\msvc2013\mkspecs\win32-msvc2013" /I"C:\GCS_MAVLink\include\mavlink\150319_c_library-master\common" /IC:\opencv\build\include /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"debug\\" /Fd"debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -Zm200 -w34100 -w34189 WebcamTracker.cpp
+         WebcamTracker.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\CopterMotion.exe" /NOLOGO /LIBPATH:C:\qt\qt5.4.0\5.4\msvc2013\lib /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2013\lib /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2013\lib /LIBPATH:\usr\local\lib /LIBPATH:C:\opencv\build\x86\vc12\lib C:\qt\qt5.4.0\5.4\msvc2013\lib\qtmaind.lib shell32.lib C:\Qt\Qt5.4.0\5.4\msvc2013\lib\Qt5Cored.lib C:\qt\qt5.4.0\5.4\msvc2013\lib\Qt5Widgetsd.lib C:\qt\qt5.4.0\5.4\msvc2013\lib\Qt5Guid.lib C:\qt\qt5.4.0\5.4\msvc2013\lib\Qt5SerialPortd.lib C:\qt\qt5.4.0\5.4\msvc2013\lib\Qt5Cored.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\CopterMotion.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\Chameleon.obj
+         debug\ConfigFile.obj
+         debug\ControlThread.obj
+         debug\moc_CaptureThread.obj
+         debug\moc_ControlThread.obj
+         debug\moc_ImageTracker.obj
+         debug\moc_WebcamTracker.obj
+         debug\ImageTracker.obj
+         debug\MAVLinkConnection.obj
+         debug\MainWindow.obj
+         debug\main.obj
+         debug\CaptureThread.obj
+         debug\WebcamTracker.obj
+         debug\moc_MAVLinkConnection.obj
+         debug\moc_MainWindow.obj
+         CopterMotion.vcxproj -> C:\Users\coolti\Documents\Visual Studio 2013\Projects\UAVShadowing\CopterTracker\CopterMotion\debug\CopterMotion.exe
+     1>Done Building Project "C:\Users\coolti\Documents\Visual Studio 2013\Projects\UAVShadowing\CopterTracker\CopterMotion\CopterMotion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.67

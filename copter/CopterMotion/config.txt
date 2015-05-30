@@ -1,0 +1,33 @@
+[Control]
+rollTargetLeft = 1350
+rollTargetRight = 1650
+pitchTargetFront = 1350
+pitchTargetBack = 1650
+rampIncrement = 10
+transmissionDelay = 20
+rampDelay = 20
+
+[MainWindow]
+rollScale = 100
+pitchScale = 100
+yawScale = 100
+
+[MAVLinkConnection]
+baudRate = 57600
+
+[ImageTracker]
+iLowH = 90
+iHighH = 140
+iLowS = 80
+iHighS = 180
+iLowV = 180
+iHighV = 255
+
+[WebcamTracker]
+iLowH = 0
+iHighH = 15
+iLowS = 50
+iHighS = 140
+iLowV = 210
+iHighV = 255
+
